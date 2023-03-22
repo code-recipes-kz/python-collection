@@ -8,5 +8,5 @@ def transform_string(s):
     s = re.sub(r'(-{2,})', '-', s)  # Убираем повторяющиеся символы "-"
     return s
 
-s = transform_string('Create Phone Number')
+s = transform_string('Find The Parity Outlier')
 print(s)

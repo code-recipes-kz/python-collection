@@ -5,8 +5,8 @@ def transform_string(s):
     s = s.replace(" ", "-")  # Заменяем пробелы на "-"
     s = s.replace("_", "-")  # Заменяем знаки "_" на "-"
     s = re.sub(r'[^\w-]', '', s)  # Удаляем все знаки препинания, кроме "-", "_" и буквенно-цифровых символов
-    s += ".py"  # Добавляем ".py" в конец строки
+    s = re.sub(r'(-{2,})', '-', s)  # Убираем повторяющиеся символы "-"
     return s
 
-s = transform_string('Stop gninnipS My sdroW!')
+s = transform_string('Create Phone Number')
 print(s)

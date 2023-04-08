@@ -15,6 +15,9 @@
 Полученная отсортированная строка sorted_str возвращается с помощью оператора return в качестве результата работы функции sort_string.
 """
 
+# tags: Strings, Fundamentals
+# kyu: 6
+
 def sort_string(input_str):
     if not input_str:  # Проверка на пустую строку
         return ""

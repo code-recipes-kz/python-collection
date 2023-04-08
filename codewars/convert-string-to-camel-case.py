@@ -11,6 +11,9 @@
 Например, если мы передадим строку "hello_world-how_are_you", функция вернет строку "helloWorldHowAreYou".
 """
 
+# tags: Regular Expressions, Algorithms, Strings
+# kyu: 6
+
 def to_camel_case(text):
     words = text.replace('-', '_').split('_')
     # Первое слово должно начинаться с маленькой буквы, если исходное слово начиналось с маленькой буквы,

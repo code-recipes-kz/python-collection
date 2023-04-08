@@ -1,3 +1,6 @@
+# tags: Arrays, Fundamentals
+# kyu: 6
+
 def is_valid_walk(walk):
     # Проверяем, что длина маршрута равна 10
     if len(walk) != 10:

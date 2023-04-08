@@ -18,6 +18,9 @@
 В итоге функция alphabet_position() возвращает строку, содержащую позиции букв в алфавите для всех букв из исходной строки text, игнорируя все остальные символы.
 """
 
+# tags: Strings, Fundamentals
+# kyu: 6
+
 def alphabet_position(text):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'  # Создаем строку с алфавитом
     result = []  # Создаем пустой список для результата

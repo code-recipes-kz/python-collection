@@ -1,3 +1,6 @@
+# tags: Strings, Fundamentals
+# kyu: 6
+
 # def likes(names):
 #     n = len(names)
 #     return {

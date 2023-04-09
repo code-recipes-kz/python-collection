@@ -1,7 +1,3 @@
-"""
-
-"""
-
 # tags: Mathematics, Algorithms
 # kyu: 6
 
